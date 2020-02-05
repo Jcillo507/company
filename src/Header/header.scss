@@ -1,0 +1,23 @@
+@import '../base.scss';
+
+.flex{
+display:flex;
+justify-content: space-evenly;
+align-items: center;
+padding:10px;
+}
+
+.header-ctr{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: space-evenly;
+}
+
+.header-logo{
+  height: 150px;
+}
+
+.header-link{
+  margin:15px;
+  color:$link-color;
+}

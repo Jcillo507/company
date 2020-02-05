@@ -1,0 +1,11 @@
+@import './base.scss';
+@import url('https://fonts.googleapis.com/css?family=Cambay&display=swap');
+
+*{
+  text-align: center;
+  font-family: 'Cambay';
+  text-decoration: none;
+  color:$text-color;
+  margin: 0;
+  background-color: $background;
+}
