@@ -1,0 +1,16 @@
+@import '../base.scss';
+
+.info-ctr p{
+  background-color: $info-bg-color;
+  height:250px;
+  padding: 100px 300px;
+}
+
+.info-text{
+  font-size: 40px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 100px 0;
+}

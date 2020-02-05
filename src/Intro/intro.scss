@@ -3,12 +3,24 @@
    background-repeat: no-repeat;
    background-position: left center;
    background-size: cover;
-  border: 2px black solid;
+  border-top: 1px black solid;
   height:800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .intro-text{
-  
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: transparent;
   margin:20px;
+}
+.intro-text-ctr{
+display: flex;
+justify-content: center;
+align-content: space-between;
 }
