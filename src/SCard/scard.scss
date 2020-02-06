@@ -1,0 +1,16 @@
+@import '../base.scss';
+
+.s-card-ctr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 200px;
+}
+
+.services-card{
+  border: 2px black solid;
+  background-color: blue;
+  width: 100px;
+}
+
+

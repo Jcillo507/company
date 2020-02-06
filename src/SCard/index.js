@@ -1,8 +1,9 @@
 import React from 'react'
+import './scard.scss'
 
-const Card = (props) => {
+const SCard = (props) => {
   return (
-    <div>
+    <div className='services-card'>
       {/* <img src={props.image} /> */}
       <h2>{props.title}</h2>
       <p>{props.desc}</p>
@@ -10,4 +11,4 @@ const Card = (props) => {
   )
 }
 
-export default Card
+export default SCard

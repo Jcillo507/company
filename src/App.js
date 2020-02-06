@@ -19,7 +19,7 @@ function App() {
       <Intro/>
       <Info/>
       <Services/>
-      <Product/>
+      {/* <Product/> */}
       <AboutUs />
       <Team />
       <Work />
