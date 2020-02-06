@@ -2,15 +2,22 @@
 
 .s-card-ctr {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
-  margin: 0 200px;
+  margin: 0 150px;
 }
 
 .services-card{
-  border: 2px black solid;
-  background-color: blue;
-  width: 100px;
+  height: 300px;
+  width:300px
 }
 
+.s-card-img{
+  height:100%;
+  width:100%;
+  border-radius: 2px;
+}
+.s-card-title{
+font-weight: 900;
+margin: 10px 0;
+}
 

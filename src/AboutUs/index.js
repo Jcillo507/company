@@ -1,10 +1,11 @@
 import React from 'react'
+import './aboutUs.scss'
 
 const AboutUs = () => {
   return (
     <div className='aboutus-ctr'>
-      <h3>Title</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+      <h3 className='aboutus-title'>History of the Company</h3>
+      <p className='aboutus-body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
          Mauris pellentesque pulvinar pellentesque habitant morbi tristique.
        Arcu non sodales neque sodales ut. Dignissim enim sit amet venenatis urna. 
