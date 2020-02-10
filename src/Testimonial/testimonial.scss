@@ -1,0 +1,28 @@
+@import '../base.scss';
+
+.test-ctr{
+  background-color:$testimonial-bg;
+  height:600px;
+}
+.test-wrapper{
+  height:100%;
+  display:flex;
+  flex-direction: column;
+  margin: 0 300px;
+  padding: 40px 0;
+  justify-content:center;
+}
+
+.test-desc{
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+.test-name{
+  font-size: 40px;
+  font-weight: 900;
+}
+.test-name-title{
+  font-size: 30px;
+  font-weight: 400;
+}

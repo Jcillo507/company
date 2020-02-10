@@ -4,9 +4,9 @@ import './contact.scss'
 const Contact = ()=>{
   return(
     <div className='contact-ctr'>
-      <h2>Contact Us</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <p>button to contact form</p>
+      <h2 className='contact-text'>Contact Us</h2>
+      <p className='contact-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <button className='contact-bttn'>Contact Us</button>
     </div>
   )
 }

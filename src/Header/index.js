@@ -26,12 +26,12 @@ const Header = () => {
       <div className='flex header-right-ctr'>
         <Link>
           <span className='header-link'>
-            link to voip call
+            555-555-5555
           </span>
     </Link>
         <Link>
         
-          <button className='header-link'>Email</button>
+          <button className='header-link header-bttn'>Contact Us</button>
     </Link>
       </div>
     </div>

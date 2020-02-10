@@ -8,7 +8,8 @@ import P4 from '../assets/p4.png'
 
 const Team =()=>{
   return(
-    <div>
+    <card>
+    <div className='team-wrapper'>
       <h2 className='team-title'>
         Meet the Team
         </h2>
@@ -19,7 +20,7 @@ const Team =()=>{
       <PCard name='COO' title='COO' email='COO@company.com' image={P3}/>
       <PCard name='CFO' title='CFO' email='CFO@company.com' image={P4}/>
     </div>
-    </div >
+    </div ></card>
   )
 }
 

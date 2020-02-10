@@ -1,14 +1,25 @@
 @import '../base.scss';
 
+.team-wrapper {
+  margin: 1em;
+  height: 39em;
+  padding-bottom: 5em;
+}
+
 .team-ctr {
-display:flex;
-margin: 50px 300px 200px 300px;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: space-evenly;
+  margin: 0 150px;
 }
 
-.team-title{
+.team-title {
   font-size: 90px;
+  margin: .5em;
 }
 
-.team-desc{
+.team-desc {
   font-size: 30px;
+  margin: 1em;
 }
