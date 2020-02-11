@@ -1,4 +1,6 @@
 import React from 'react';
+import { Switch, Route, Link } from 'react-router-dom'
+
 import './App.scss';
 import Header from './Header/'
 import Footer from './Footer/'
@@ -18,7 +20,7 @@ function App() {
       <Header/>
       <Intro/>
       <Info/>
-      <Services/>
+      <Services />
       {/* <Product/> */}
       <AboutUs />
       <Team />
