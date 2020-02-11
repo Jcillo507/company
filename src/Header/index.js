@@ -5,7 +5,7 @@ import Headroom from 'react-headroom'
 
 const Header = () => {
   return (
-    <Headroom className='headroom-style' style={{ background:'#F9F8F8'}}>
+    <Headroom className='headroom-style' style={{ background: '#F9F8F8', boxShadow:'1px 1px #888888'}}>
     <div className='header-ctr' id='home'>
 
       <div className='flex header-left-ctr'>
