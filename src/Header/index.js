@@ -1,11 +1,13 @@
 import React from 'react'
 import './header.scss'
 import Logo from '../assets/logo.png' 
-
+import Headroom from 'react-headroom'
 
 const Header = () => {
   return (
+    <Headroom className='headroom-style' style={{ background:'#F9F8F8'}}>
     <div className='header-ctr' id='home'>
+
       <div className='flex header-left-ctr'>
         <a href='#home'>
           <img src={Logo} alt='logo' className='header-logo'/>
@@ -30,12 +32,13 @@ const Header = () => {
           </span>
     
           <button className='header-link header-bttn'>Contact Us</button>
-    
       </div>
+   
     
     
   
     </div>
+      </Headroom>
   )
 }
 
