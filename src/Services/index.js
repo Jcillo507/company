@@ -8,7 +8,7 @@ import S4 from '../assets/s4.png'
 
 const Services = () => {
   return (
-    <div className='services-ctr'>
+    <div className='services-ctr' id='services'>
       <h2 className='services-title'>
         Services
       </h2>

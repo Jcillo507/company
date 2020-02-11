@@ -9,7 +9,7 @@ import P4 from '../assets/p4.png'
 const Team =()=>{
   return(
     <card>
-    <div className='team-wrapper'>
+    <div className='team-wrapper' id='team'>
       <h2 className='team-title'>
         Meet the Team
         </h2>
