@@ -1,5 +1,6 @@
 import React from 'react'
 import Modal from 'react-modal';
+import './button.scss'
 
 const customStyles = {
   content: {
@@ -8,7 +9,8 @@ const customStyles = {
     right: 'auto',
     bottom: 'auto',
     marginRight: '-50%',
-    transform: 'translate(-50%, -50%)'
+    transform: 'translate(-50%, -50%)',
+    height: '355px',
   }
 };
 class Button extends React.Component {
@@ -28,7 +30,6 @@ class Button extends React.Component {
   }
 
   afterOpenModal() {
-    // references are now sync'd and can be accessed.
     this.subtitle.style.color = '#f00';
   }
 
@@ -37,26 +38,32 @@ class Button extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className='modal'>
         <button className='header-link header-bttn' onClick={this.openModal}>Contact Us</button>
         <Modal
           isOpen={this.state.modalIsOpen}
           onAfterOpen={this.afterOpenModal}
           onRequestClose={this.closeModal}
           style={customStyles}
-          contentLabel="Example Modal"
+          // className='modal'
         >
-
-          <button onClick={this.closeModal}>X</button>
+          <div className='modal'>
+          <button className='modal-close'onClick={this.closeModal}>X</button>
           <h2 ref={subtitle => this.subtitle = subtitle}>Contact Us</h2>
-          <div>Give us a call @ (555)-555-5555 or fill out the form below and we'll get back to you shortly.</div>
-          <form>
-            <input />
-            <input />
-            <input />
-            <input />
-          <button>Submit</button>
-          </form>
+          <div className='modal-desc'>Give us a call @ (555)-555-5555 or fill out the form below and we'll get back to you shortly.</div>
+            <div classname='form-inputs'>
+          <form >
+            <input className='modal-input'placeholder='Name'/>
+            <input className='modal-input'type='e-mail' placeholder='Email'/>
+            
+            <input className='modal-input'placeholder='Phone Number'/>
+                <br />
+            <input className='modal-text'placeholder='How can we help you today?'/>
+            <br />
+          {/* <input type='Submit'/> */}
+          <button >Submit</button>
+          </form></div>
+          </div>
         </Modal>
       </div>
     );
