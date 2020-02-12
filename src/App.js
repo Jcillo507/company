@@ -14,11 +14,13 @@ import Work from './Work/'
 import Testimonial from './Testimonial/'
 import Contact from './Contact/'
 
+
 function App() {
   return (
     <div className="App">
       <Header/>
       <Intro/>
+      
       <Info/>
       <Services />
       {/* <Product/> */}
