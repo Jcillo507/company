@@ -2,6 +2,7 @@ import React from 'react'
 import './header.scss'
 import Logo from '../assets/logo.png' 
 import Headroom from 'react-headroom'
+import Button from '../Button/'
 
 const Header = () => {
   return (
@@ -30,8 +31,7 @@ const Header = () => {
           <span className='header-link'>
             555-555-5555
           </span>
-    
-          <button className='header-link header-bttn'>Contact Us</button>
+          <Button />
       </div>
    
     
