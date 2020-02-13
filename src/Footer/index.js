@@ -7,9 +7,9 @@ import './footer.scss'
 const Footer  = ()=>{
 return(
   <div className='footer-ctr'>
-   <div className='footer-img'>
+   {/* <div className='footer-img'>
       <img src={Logo} alt='logo' className='header-logo' />
-   </div>
+   </div> */}
     <div className='footer-text'>
     <h3>123 Your Address Ave // Your City // Your state</h3>
    

@@ -1,9 +1,10 @@
 .intro-ctr{
-  background-image: url('../assets/cityscape.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url('../assets/cityscape.png');
    background-repeat: no-repeat;
    background-position: left center;
    background-size: cover;
-   
+   background-blend-mode: darken;
   border-top: 1px black solid;
   height:800px;
   display: flex;
@@ -11,7 +12,9 @@
   justify-content: center;
   align-items: center;
 }
-
+.intro-ctr::after{
+opacity: 5;
+}
 .intro-text{
   color:white;
   display: flex;
@@ -21,7 +24,6 @@
   margin:20px;
 }
 .intro-text-ctr{
-display: flex;
-justify-content: center;
-align-content: space-between;
+  // background-color: #BCBCBC;
+
 }
