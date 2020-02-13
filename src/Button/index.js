@@ -61,7 +61,7 @@ class Button extends React.Component {
             <input className='modal-text'placeholder='How can we help you today?'/>
             <br />
           {/* <input type='Submit'/> */}
-          <button >Submit</button>
+          <button disabled='true'>Submit</button>
           </form></div>
           </div>
         </Modal>
