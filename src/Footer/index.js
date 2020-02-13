@@ -1,6 +1,7 @@
 import React from 'react'
-import { Route } from 'react-router-dom'
+
 import Logo from '../assets/logo.png' 
+
 import './footer.scss'
 
 const Footer  = ()=>{

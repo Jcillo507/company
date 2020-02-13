@@ -1,7 +1,5 @@
 import React from 'react';
-import { Switch, Route, Link } from 'react-router-dom'
 
-import './App.scss';
 import Header from './Header/'
 import Footer from './Footer/'
 import Intro from './Intro/'
@@ -14,6 +12,7 @@ import Work from './Work/'
 import Testimonial from './Testimonial/'
 import Contact from './Contact/'
 
+import './App.scss';
 
 function App() {
   return (
