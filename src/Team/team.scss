@@ -1,13 +1,13 @@
 @import '../base.scss';
 
 .team-wrapper {
-  margin: 1em;
+  // margin: 1em;
   height: 39em;
   padding-bottom: 5em;
+margin: 0 150px;
 }
 
 .team-ctr {
-
   display: flex;
   justify-content: space-evenly;
   align-items: space-evenly;
