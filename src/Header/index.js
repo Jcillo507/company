@@ -27,7 +27,6 @@ const Header = () => {
         </a>
       </div>
       <div className='flex header-right-ctr'>
-        
           <span className='header-link'>
             555-555-5555
           </span>
