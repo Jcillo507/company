@@ -1,15 +1,21 @@
+@media (max-device-width: 400px) {
+  div{
+    .aboutus-ctr{
+      margin:0;
+    }
+  }
+}
+
 .aboutus-ctr{
 margin: 100px 350px;
 background-color: whitesmoke;
 position:contain;
 // width:300px;
 }
-
 .aboutus-title{
 padding:50px;
   font-size: 50px;
 }
-
 .aboutus-body{
 font-size: 25px;
 margin-bottom: 20px;

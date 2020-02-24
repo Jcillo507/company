@@ -1,14 +1,14 @@
 @import '../base.scss';
 
 @media (max-device-width: 400px) {
-  div{
+ div{
   .info-ctr {
     padding: 50px;
-  }}
-
+  }
+}
   .info-text {
-    font-size: 1em;
-    padding: 5px;
+    // font-size: 1em;
+    padding: 50px;
   }
 }
 
