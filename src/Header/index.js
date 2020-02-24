@@ -32,10 +32,6 @@ const Header = () => {
           </span>
           <Button />
       </div>
-   
-    
-    
-  
     </div>
       </Headroom>
   )

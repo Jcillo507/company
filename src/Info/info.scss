@@ -1,17 +1,28 @@
 @import '../base.scss';
 
-.info-ctr p{
+@media (max-device-width: 400px) {
+  div{
+  .info-ctr {
+    padding: 50px;
+  }}
+
+  .info-text {
+    font-size: 1em;
+    padding: 5px;
+  }
+}
+
+.info-ctr {
   background-color: $info-bg-color;
-  height:250px;
   padding: 100px 300px;
 }
 
-.info-text{
+.info-text {
   font-size: 40px;
   font-weight: 900;
   line-height: 2;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 100px 0;
+  
 }
