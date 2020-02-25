@@ -27,7 +27,7 @@ function App() {
       <Team />
       <Work />
       <Testimonial/>
-      <Contact/>
+      <Contact/> 
       <Footer/>
     </div>
   );

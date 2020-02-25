@@ -1,17 +1,21 @@
 @import '../base.scss';
 
-.team-wrapper {
+.team-wrapper{
   // margin: 1em;
-  height: 39em;
-  padding-bottom: 5em;
-margin: 0 150px;
+  // display:flex;
+  // flex-direction: column;
+  min-height: 100%;
+  // padding-bottom: 5em;
+margin: 50px 150px;
+
 }
 
 .team-ctr {
+  // height:100%;
   display: flex;
   justify-content: space-evenly;
   align-items: space-evenly;
-  margin: 0 150px;
+  margin: 50px 150px;
 }
 
 .team-title {
