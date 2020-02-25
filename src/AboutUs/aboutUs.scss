@@ -1,25 +1,28 @@
-@media (max-device-width: 400px) {
-  div{
-    .aboutus-ctr{
-      margin:0;
+@media (min-device-width: 1300px) {
+  div {
+    .aboutus-ctr {
+      margin: 100px 350px;
+      
     }
   }
 }
 
-.aboutus-ctr{
-margin: 100px 350px;
-background-color: whitesmoke;
-position:contain;
-// width:300px;
+.aboutus-ctr {
+  margin:15px;
+  background-color: whitesmoke;
+
+
 }
-.aboutus-title{
-padding:50px;
+
+.aboutus-title {
+  padding: 50px;
   font-size: 50px;
 }
-.aboutus-body{
-font-size: 25px;
-margin-bottom: 20px;
-padding:20px;
-line-height: 2;
+
+.aboutus-body {
+  font-size: 25px;
+  margin-bottom: 20px;
+  padding: 20px;
+  line-height: 2;
 
 }

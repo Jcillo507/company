@@ -1,14 +1,11 @@
 @import '../base.scss';
 
-@media (max-device-width: 400px) {
- div{
-  .info-ctr {
-    padding: 50px;
-  }
-}
-  .info-text {
-    // font-size: 1em;
-    padding: 50px;
+@media (min-device-width: 1300px) {
+  div {
+    .info-ctr {
+  padding: 50px 300px;
+
+    }
   }
 }
 .info-logo{
@@ -16,7 +13,7 @@
 }
 .info-ctr {
   background-color: $info-bg-color;
-  padding: 50px 300px;
+  padding: 10px;
 }
 
 .info-text {
