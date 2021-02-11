@@ -1,7 +1,7 @@
 import React from 'react'
-import Logo from '../assets/logo.png' 
+import Logo from '../../assets/logo.png' 
 import Headroom from 'react-headroom'
-import Button from '../Button/'
+import Button from '../Button'
 
 const Header = () => {
   return (

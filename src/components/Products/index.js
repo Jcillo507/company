@@ -1,5 +1,5 @@
 import React from 'react'
-import SCard from '../SCard/'
+import SCard from '../SCard'
 
 const Products =()=>{
   return(

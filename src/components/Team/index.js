@@ -1,9 +1,9 @@
 import React from 'react'
 import PCard from '../PCard/'
-import P1 from '../assets/p1.png'
-import P2 from '../assets/p2.png'
-import P3 from '../assets/p3.png'
-import P4 from '../assets/p4.png'
+import P1 from '../../assets/p1.png'
+import P2 from '../../assets/p2.png'
+import P3 from '../../assets/p3.png'
+import P4 from '../../assets/p4.png'
 
 const Team =()=>{
   return(
