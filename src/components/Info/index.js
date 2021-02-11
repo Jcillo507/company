@@ -4,7 +4,7 @@ import Logo from '../../assets/logo.png'
 const Info = () => {
   return (
     <div className='info-ctr'>
-      <img className='info-logo' src={Logo} />
+      <img className='info-logo' src={Logo} alt='info logo'/>
       <p className='info-text'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
