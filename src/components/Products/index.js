@@ -7,7 +7,7 @@ const Products = () => {
       <SCard title='hello3' desc='working3' />
       <SCard title='hello13' desc='working13' />
       <SCard title='hello23' desc='working23' />
-      <SCard title='hello123' desc='working123' />
+      <SCard title='hello123456' desc='working123' />
     </div>
   )
 }
