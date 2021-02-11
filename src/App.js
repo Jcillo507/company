@@ -1,25 +1,24 @@
 import React from 'react';
 
-import Header from './Header/'
-import Footer from './Footer/'
-import Intro from './Intro/'
-import Info from './Info/'
-import Services from './Services/'
-import Product from './Products/'
-import AboutUs from './AboutUs/'
-import Team from './Team/'
-import Work from './Work/'
-import Testimonial from './Testimonial/'
-import Contact from './Contact/'
+import Header from './components/Header'
+import Footer from './components/Footer/'
+import Intro from './components/Intro/'
+import Info from './components/Info/'
+import Services from './components/Services/'
+import Product from './components/Products/'
+import AboutUs from './components/AboutUs'
+import Team from './components/Team/'
+import Work from './components/Work/'
+import Testimonial from './components/Testimonial/'
+import Contact from './components/Contact'
 
-import './App.scss';
+import './css/main.css';
 
 function App() {
   return (
     <div className="App">
       <Header/>
       <Intro/>
-      
       <Info/>
       <Services />
       {/* <Product/> */}
