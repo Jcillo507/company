@@ -1,5 +1,4 @@
 import React from 'react'
-import './header.scss'
 import Logo from '../assets/logo.png' 
 import Headroom from 'react-headroom'
 import Button from '../Button/'

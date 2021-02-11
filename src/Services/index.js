@@ -1,6 +1,5 @@
 import React from 'react'
 import SCard from '../SCard/'
-import './services.scss'
 import S1 from '../assets/s1.png'
 import S2 from '../assets/s2.png'
 import S3 from '../assets/s3.png'

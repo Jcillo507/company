@@ -1,5 +1,4 @@
 import React from 'react'
-import './scard.scss'
 
 const SCard = (props) => {
   return (

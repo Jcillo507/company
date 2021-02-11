@@ -1,5 +1,4 @@
 import React from 'react'
-import './contact.scss'
 import Button from '../Button/'
 
 const Contact = ()=>{

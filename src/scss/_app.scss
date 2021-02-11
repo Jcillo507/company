@@ -1,8 +1,7 @@
-@import './base.scss';
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
 
 
-*{
+* {
   text-align: center;
   font-family: 'Libre Baskerville';
   text-decoration: none;
@@ -11,8 +10,9 @@
   overscroll-behavior-x: none;
 }
 
-.App{
-  color:$text-color;
+.App {
+  color: $text-color;
   background-color: $background;
-  width: 120vw;;
+  width: 120vw;
+  ;
 }

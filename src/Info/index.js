@@ -1,5 +1,4 @@
 import React from 'react'
-import './info.scss'
 import Logo from '../assets/logo.png'
 
 const Info = ()=>{

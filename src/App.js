@@ -12,7 +12,7 @@ import Work from './Work/'
 import Testimonial from './Testimonial/'
 import Contact from './Contact/'
 
-import './App.scss';
+import './css/main.css';
 
 function App() {
   return (
