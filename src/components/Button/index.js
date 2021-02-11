@@ -44,24 +44,22 @@ class Button extends React.Component {
           onAfterOpen={this.afterOpenModal}
           onRequestClose={this.closeModal}
           style={customStyles}
-          // className='modal'
         >
           <div className='modal'>
-          <button className='modal-close'onClick={this.closeModal}>X</button>
-          <h2 ref={subtitle => this.subtitle = subtitle}>Contact Us</h2>
-          <div className='modal-desc'>Give us a call @ (555)-555-5555 or fill out the form below and we'll get back to you shortly.</div>
+            <button className='modal-close' onClick={this.closeModal}>X</button>
+            <h2 ref={subtitle => this.subtitle = subtitle}>Contact Us</h2>
+            <div className='modal-desc'>Give us a call @ (555)-555-5555 or fill out the form below and we'll get back to you shortly.</div>
             <div classname='form-inputs'>
-          <form >
-            <input className='modal-input'placeholder='Name'/>
-            <input className='modal-input'type='e-mail' placeholder='Email'/>
-            
-            <input className='modal-input'placeholder='Phone Number'/>
+              <form >
+                <input className='modal-input' placeholder='Name' />
+                <input className='modal-input' type='e-mail' placeholder='Email' />
+
+                <input className='modal-input' placeholder='Phone Number' />
                 <br />
-            <input className='modal-text'placeholder='How can we help you today?'/>
-            <br />
-          {/* <input type='Submit'/> */}
-          <button disabled='true'>Submit</button>
-          </form></div>
+                <input className='modal-text' placeholder='How can we help you today?' />
+                <br />
+                <button disabled='true'>Submit</button>
+              </form></div>
           </div>
         </Modal>
       </div>

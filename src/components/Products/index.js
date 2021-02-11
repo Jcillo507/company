@@ -1,8 +1,8 @@
 import React from 'react'
 import SCard from '../SCard'
 
-const Products =()=>{
-  return(
+const Products = () => {
+  return (
     <div>
       <SCard title='hello3' desc='working3' />
       <SCard title='hello13' desc='working13' />
