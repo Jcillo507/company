@@ -208,7 +208,7 @@
   background-size: cover;
   background-blend-mode: darken;
   border-top: 1px black solid;
-  height: 800px;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
