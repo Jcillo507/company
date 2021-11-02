@@ -13,7 +13,7 @@ import Contact from './components/Contact'
 
 import './css/main.css';
 
-function App() {
+const App=()=> {
   return (
     <div className="App">
       <Header/>
@@ -24,7 +24,7 @@ function App() {
       <Team />
       <Work />
       <Testimonial/>
-      <Contact/> 
+      <Contact/>
       <Footer/>
     </div>
   );

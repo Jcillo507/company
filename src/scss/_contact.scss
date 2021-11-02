@@ -1,21 +1,28 @@
-
-.contact-ctr{
-  display:flex;
+.contact-ctr {
+  display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-content: space-evenly;
   height: 400px;
 }
-.contact-bttn{
+
+.contact-bttn {
   outline: none;
- text-align:center;
+  text-align: center;
   width: 100px;
-  height:50px;
+  height: 50px;
   align-self: center;
   border-radius: 2px;
   font-size: 15px;
 }
 
-.contact-text{
+.contact-text {
   margin: 20px;
+  letter-spacing: 1px;
+}
+
+.contact-title {
+  margin: 20px;
+  letter-spacing: 1px;
+  font-size: 40px;
 }

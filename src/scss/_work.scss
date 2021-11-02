@@ -1,16 +1,21 @@
-
-.work-ctr{
-  display:flex;
+.work-ctr {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   background: $work-bg-color;
-  height:400px;
-  color:$work-font-color;
+  height: 400px;
+  color: $work-font-color;
 }
 
-.work-title{
-  margin: 25px;
+.work-title {
+  margin: 20px;
+  font-size: 40px;
 }
-.work-desc{
+
+.work-desc {
   margin: 25px;
+  letter-spacing: 1px;
+  padding-top: 10px;
+  line-height: 2;
+
 }

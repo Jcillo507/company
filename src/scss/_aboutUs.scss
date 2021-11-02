@@ -8,17 +8,19 @@
 
 .aboutus-ctr {
   margin:15px;
-  background-color: whitesmoke;
+  background-color: rgb(243, 242, 242);
+  padding: 50px 0;
 }
 
 .aboutus-title {
-  padding: 50px;
-  font-size: 50px;
+  // padding-top: 50px;
+  font-size: 40px;
 }
 
 .aboutus-body {
-  font-size: 25px;
-  margin-bottom: 20px;
-  padding: 20px;
+  font-size: 20px;
+  padding:20px 35px 0 35px;
+  // padding-bottom: 50px;
   line-height: 2;
+  letter-spacing: 1px;
 }

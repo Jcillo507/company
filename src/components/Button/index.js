@@ -45,7 +45,6 @@ class Button extends React.Component {
           onRequestClose={this.closeModal}
           style={customStyles}
         >
-          <div className='modal'>
             <button className='modal-close' onClick={this.closeModal}>X</button>
             <h2 ref={subtitle => this.subtitle = subtitle}>Contact Us</h2>
             <div className='modal-desc'>Give us a call @ (555)-555-5555 or fill out the form below and we'll get back to you shortly.</div>
@@ -59,8 +58,8 @@ class Button extends React.Component {
                 <input className='modal-text' placeholder='How can we help you today?' />
                 <br />
                 <button disabled='true'>Submit</button>
-              </form></div>
-          </div>
+              </form>
+            </div>
         </Modal>
       </div>
     );

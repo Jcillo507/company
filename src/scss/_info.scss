@@ -3,12 +3,11 @@
   div {
     .info-ctr {
   padding: 50px 300px;
-
     }
   }
 }
 .info-logo{
-  height: 200px;
+  height: 150px;
 }
 .info-ctr {
   background-color: $info-bg-color;
@@ -16,11 +15,11 @@
 }
 
 .info-text {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 900;
   line-height: 2;
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  letter-spacing: 1px;
 }
