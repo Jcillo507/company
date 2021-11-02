@@ -140,12 +140,13 @@
 }
 
 .header-logo {
-  height: 150px;
+  height: 75px;
   margin-left: 50px;
 }
 
 .header-link {
-  margin: 15px;
+  font-size: 15px;
+  margin: 20px;
   color: #272838;
 }
 
@@ -160,6 +161,8 @@
   border-radius: 2px;
   font-size: 15px;
   padding: 0 10px;
+  margin: 0;
+  margin-right: 50px;
 }
 
 .headroom-style {
